@@ -3,7 +3,7 @@ const router = express.Router();
 
 const ProductModel = require('../models/ProductModel.js');
 
-router.post('/update',                                      
+router.put('/update',                                      
     function(req, res) {
 
         const document = {
